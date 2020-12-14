@@ -1,0 +1,33 @@
+﻿@page
+@model RestaurantAdvisor.Pages.Restaurants.ListModel
+@{
+}
+
+<h1>@Model.Message</h1>
+
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            
+            <input type="search" class="form-control" asp-for="SearchTerm" />
+            <span class="input-group-btn">
+                <button class="btn btn-outline-primary">
+                    <i class="fas fa-search"></i>
+                </button>
+            </span>
+        </div>
+    </div>
+    
+
+</form>
+
+<table class="table-striped col-12">
+    @foreach (var r in Model.Restaurants)
+    {
+    <tr>
+        <td>@r.Name</td>
+        <td>@r.Cuisine</td>
+        <td>@r.Location</td>
+    </tr>
+    }
+</table>
