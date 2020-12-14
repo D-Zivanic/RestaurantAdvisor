@@ -15,6 +15,7 @@ namespace RestaurantAdvisor.Pages.Restaurants
 
         public void OnGet()
         {
+            Restaurants = new Restaurant();
         }
     }
 }

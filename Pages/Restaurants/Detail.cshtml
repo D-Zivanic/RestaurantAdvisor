@@ -2,3 +2,14 @@
 @model RestaurantAdvisor.Pages.Restaurants.DetailModel
 @{
 }
+
+<h1>@Model.Restaurants.Name</h1>
+
+<div>
+    Location: @Model.Restaurants.Location
+</div>
+<div>
+    Cuisine: @Model.Restaurants.Cuisine
+</div>
+
+<a asp-page="./List" class="btn btn-danger">Back to List</a>
