@@ -1,15 +1,16 @@
-﻿@page
+﻿@page "{Id:int}"
 @model RestaurantAdvisor.Pages.Restaurants.DetailModel
 @{
 }
 
-<h1>@Model.Restaurants.Name</h1>
+<h1>@Model.Restaurant.Name</h1>
 
 <div>
-    Location: @Model.Restaurants.Location
+    Location: @Model.Restaurant.Location
 </div>
 <div>
-    Cuisine: @Model.Restaurants.Cuisine
+    Cuisine: @Model.Restaurant.Cuisine
 </div>
 
-<a asp-page="./List" class="btn btn-danger">Back to List</a>
+<a asp-page="./Edit" asp-route-id="@Model.Restaurant.Id" class="btn btn-outline-warning">Edit Restaurant</a>
+<a asp-page="./List" class="btn btn-outline-danger">Back to List</a>

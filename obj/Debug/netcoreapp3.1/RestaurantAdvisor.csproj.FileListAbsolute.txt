@@ -113,3 +113,6 @@ C:\Users\dcvis\Source\Repos\RestaurantAdvisor\bin\Debug\netcoreapp3.1\Restaurant
 C:\Users\dcvis\Source\Repos\RestaurantAdvisor\bin\Debug\netcoreapp3.1\RestaurantAdvisor.Data.dll
 C:\Users\dcvis\Source\Repos\RestaurantAdvisor\bin\Debug\netcoreapp3.1\RestaurantAdvisor.Core.pdb
 C:\Users\dcvis\Source\Repos\RestaurantAdvisor\bin\Debug\netcoreapp3.1\RestaurantAdvisor.Data.pdb
+C:\Users\dcvis\Source\Repos\RestaurantAdvisor\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\Detail.cshtml.g.cs
+C:\Users\dcvis\Source\Repos\RestaurantAdvisor\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\NotFound.cshtml.g.cs
+C:\Users\dcvis\Source\Repos\RestaurantAdvisor\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\Edit.cshtml.g.cs

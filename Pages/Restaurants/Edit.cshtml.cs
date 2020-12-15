@@ -9,25 +9,21 @@ using RestaurantAdvisor.Data;
 
 namespace RestaurantAdvisor.Pages.Restaurants
 {
-    public class DetailModel : PageModel
+    public class EditModel : PageModel
     {
         private readonly IRestaurantData _restaurantData;
 
-        public Restaurant Restaurant { get; set; }
+        public Restaurant restaurant {get; set; }
 
-        public DetailModel(IRestaurantData restaurantData)
+        public EditModel(IRestaurantData restaurantData)
         {
             _restaurantData = restaurantData;
         }
 
-        public IActionResult OnGet(int Id)
+        public void OnGet(int id)
         {
-            Restaurant = _restaurantData.GetSingle(Id);
-            if (Restaurant == null)
-            {
-                return RedirectToPage("./NotFound");
-            }
-            return Page();
+            restaurant = _restaurantData.GetSingle(id);
+
         }
     }
 }

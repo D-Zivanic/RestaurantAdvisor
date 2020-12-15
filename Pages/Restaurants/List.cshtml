@@ -17,15 +17,13 @@
             </span>
         </div>
     </div>
-    
-
 </form>
 
 <table class="table-striped col-12">
     @foreach (var r in Model.Restaurants)
     {
     <tr>
-        <td>@r.Name</td>
+        <td><a asp-page="./Detail" asp-route-Id="@r.Id">@r.Name</a></td>
         <td>@r.Cuisine</td>
         <td>@r.Location</td>
     </tr>
