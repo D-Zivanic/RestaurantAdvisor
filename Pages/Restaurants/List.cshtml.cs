@@ -29,7 +29,7 @@ namespace RestaurantAdvisor.Pages.Restaurants
         public void OnGet()
         {
             Message = "Restaurants List";
-            Restaurants = _restaurantData.GetRestaurantsByName(SearchTerm);
+            Restaurants = _restaurantData.GetAllByName(SearchTerm);
         }
     }
 }
