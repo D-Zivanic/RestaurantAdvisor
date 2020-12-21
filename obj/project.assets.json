@@ -6029,21 +6029,19 @@
   },
   "packageFolders": {
     "C:\\Users\\dcvis\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dcvis\\Source\\Repos\\RestaurantAdvisor\\RestaurantAdvisor.csproj",
+      "projectUniqueName": "C:\\Users\\dcvis\\source\\repos\\RestaurantAdvisor\\RestaurantAdvisor.csproj",
       "projectName": "RestaurantAdvisor",
-      "projectPath": "C:\\Users\\dcvis\\Source\\Repos\\RestaurantAdvisor\\RestaurantAdvisor.csproj",
+      "projectPath": "C:\\Users\\dcvis\\source\\repos\\RestaurantAdvisor\\RestaurantAdvisor.csproj",
       "packagesPath": "C:\\Users\\dcvis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dcvis\\Source\\Repos\\RestaurantAdvisor\\obj\\",
+      "outputPath": "C:\\Users\\dcvis\\source\\repos\\RestaurantAdvisor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\dcvis\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6061,11 +6059,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\dcvis\\Source\\Repos\\RestaurantAdvisor.Core\\RestaurantAdvisor.Core.csproj": {
-              "projectPath": "C:\\Users\\dcvis\\Source\\Repos\\RestaurantAdvisor.Core\\RestaurantAdvisor.Core.csproj"
+            "C:\\Users\\dcvis\\source\\repos\\RestaurantAdvisor.Core\\RestaurantAdvisor.Core.csproj": {
+              "projectPath": "C:\\Users\\dcvis\\source\\repos\\RestaurantAdvisor.Core\\RestaurantAdvisor.Core.csproj"
             },
-            "C:\\Users\\dcvis\\Source\\Repos\\RestaurantAdvisor.Data\\RestaurantAdvisor.Data.csproj": {
-              "projectPath": "C:\\Users\\dcvis\\Source\\Repos\\RestaurantAdvisor.Data\\RestaurantAdvisor.Data.csproj"
+            "C:\\Users\\dcvis\\source\\repos\\RestaurantAdvisor.Data\\RestaurantAdvisor.Data.csproj": {
+              "projectPath": "C:\\Users\\dcvis\\source\\repos\\RestaurantAdvisor.Data\\RestaurantAdvisor.Data.csproj"
             }
           }
         }
