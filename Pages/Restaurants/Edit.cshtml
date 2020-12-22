@@ -1,12 +1,12 @@
-﻿@page "{Id:int}"
+﻿@page "{Id:int?}"
 @model RestaurantAdvisor.Pages.Restaurants.EditModel
 @{
     ViewData["Title"] = "Edit Restaurant";
 }
 
-<h1>Editing: @Model.restaurant.Name</h1>
+<h1>@Model.restaurant.Name</h1>
 
-<form action="/" method="post">
+<form method="post">
     <input type="hidden" asp-for="@Model.restaurant.Id" />
 
     <div class="form-group">
@@ -29,7 +29,7 @@
         </select>
     </div>
 
-    <button type="submit" class="btn btn-outline-success">Save</button>
+    <button type="submit" class=" btn btn-outline-success">Save</button>
     <a asp-page="./List" class="btn btn-outline-danger">Back to List</a>
 
 </form>
