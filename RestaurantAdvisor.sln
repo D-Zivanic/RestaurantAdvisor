@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantAdvisor", "Restau
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantAdvisor.Core", "..\RestaurantAdisor.Core\RestaurantAdvisor.Core.csproj", "{23FACE04-A640-471E-B1D1-74EDF201E4DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantAdvisor.Data", "..\RestaurantAdvisor.Data\RestaurantAdvisor.Data\RestaurantAdvisor.Data.csproj", "{3C4925D5-F8F3-4951-9295-BF442E1601FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantAdvisor.Data", "..\RestaurantAdvisor.Data\RestaurantAdvisor.Data\RestaurantAdvisor.Data.csproj", "{3C4925D5-F8F3-4951-9295-BF442E1601FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

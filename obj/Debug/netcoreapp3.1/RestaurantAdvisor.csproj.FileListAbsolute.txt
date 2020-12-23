@@ -158,3 +158,6 @@ C:\Users\dcvis\source\repos\RestaurantAdvisor\bin\Debug\netcoreapp3.1\runtimes\u
 C:\Users\dcvis\source\repos\RestaurantAdvisor\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\dcvis\source\repos\RestaurantAdvisor\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\dcvis\source\repos\RestaurantAdvisor\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\dcvis\source\repos\RestaurantAdvisor\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\Delete.cshtml.g.cs
+C:\Users\dcvis\source\repos\RestaurantAdvisor\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\_Summary.cshtml.g.cs
+C:\Users\dcvis\source\repos\RestaurantAdvisor\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\Components\RestaurantCount\Default.cshtml.g.cs
